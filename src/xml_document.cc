@@ -323,8 +323,7 @@ xmlParserOption getParserOptions(Local<Object> props) {
   /*ret |= getParserOption(props, "recover", HTML_PARSE_RECOVER);           //
    * 1: Relaxed parsing*/
 
-  ret |= getParserOption(props, "noent",
-                         XML_PARSE_NOENT); // 2: substitute entities
+  ret |= XML_PARSE_NOENT; // 2: substitute entities
 
   ret |= getParserOption(props, "dtdload",
                          XML_PARSE_DTDLOAD); // 4: load the external subset
