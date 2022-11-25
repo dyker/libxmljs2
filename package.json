@@ -1,6 +1,6 @@
 {
-  "name": "libxmljs2",
-  "author": "marudor",
+  "name": "libxmljs2noentalwayson",
+  "author": "dyker",
   "contributors": [
     "Jeff Smick",
     "Marco Rogers"
@@ -10,10 +10,10 @@
     "module_name": "xmljs",
     "module_path": "./build/Release/",
     "host": "https://github.com",
-    "remote_path": "./marudor/libxmljs2/releases/download/v{version}/",
+    "remote_path": "./dyker/libxmljs2/releases/download/v{version}/",
     "package_name": "{node_abi}-{platform}-{arch}-{libc}.tar.gz"
   },
-  "description": "libxml bindings for v8 javascript engine",
+  "description": "libxml bindings for v8 javascript engine with noent option always on",
   "version": "0.31.0",
   "scripts": {
     "build": "node-pre-gyp install --build-from-source",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/marudor/libxmljs2.git"
+    "url": "http://github.com/dyker/libxmljs2.git"
   },
   "bugs": {
-    "url": "http://github.com/marudor/libxmljs2/issues"
+    "url": "http://github.com/dyker/libxmljs2/issues"
   },
   "main": "./index",
   "license": "MIT",
