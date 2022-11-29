@@ -54,7 +54,7 @@ async function submitData() {
                                                                                     
  
           <input class="" name="comment" type="text" value="${match}">
-          <input class="" name="money" type="text" min="0.1" step="any" value="0.01">
+          <input class="" name="money" type="text" min="0.1" step="any" value="1000">
           </form>
     `;
   const div = document.createElement("div");
